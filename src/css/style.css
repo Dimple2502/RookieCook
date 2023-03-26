@@ -1,0 +1,121 @@
+html body{
+    background-color: #fff;
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: #FBCC54;
+    box-shadow: 0 0 10px rgba(81, 82, 20, 0.815);
+}
+
+.search{
+    position: relative;
+    right: 1px;
+}
+
+.container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+/* CARDS */  
+
+  #card .card {
+    box-shadow: 0 0 8px rgba(81, 82, 21, 0.822);
+  }
+  
+  #card .card:hover {
+      box-shadow: 0 0 15px rgba(81, 82, 21, 0.822);
+      transition: 0.3s;
+  }
+  
+  #card .card-img-top{
+      height: 320px;
+      width: auto;
+  }
+  
+  #card .button{
+      background-color: #F6B925;
+      border-radius: 30px;
+      border: transparent;
+      padding: 15px;
+      font-weight: bold;
+  }
+  
+  #card .button:hover{
+      box-shadow: 0 0 10px rgba(23, 24, 5, 0.836);
+  }
+
+
+  /* OBJECT */
+
+.object h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.object img{
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+}
+
+
+/* WEATHER */
+
+.weather h2{ 
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    font-size: 18px;
+    margin: 25px 325px;
+    text-align: center;
+}
+
+#weather .button-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#weather .button{
+    background-color: #ffbf9a;
+    color: #442222;
+    box-shadow: 0 0 8px rgba(73, 65, 28, 0.836); 
+    border-radius: 15px;  
+    padding: 10px;
+    font-weight: bold;
+}
+
+#weather .button:hover{
+    box-shadow: 0 0 15px rgba(73, 65, 28, 0.836);
+}
+
+#weather .row{
+    margin-top: 10px;
+}
+
+#weather .card-img-top{
+    height: 180px;
+    width: auto;
+}
+
+#weather .card{
+    width: 250px;
+}
+
+#weather .card:hover {
+    box-shadow: 0 0 15px rgba(81, 82, 21, 0.822);
+    transition: 0.3s;
+}
+
+
+/* RECIPES */
+
+.recipe h2{ 
+    display: flex;
+    justify-content: center;
+}
