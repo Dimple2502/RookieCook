@@ -1,33 +1,34 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState,useRef } from 'react';
 import camera from "../images/camera.png";
 
 const Object = () => {
 
-  const [imageUrl, setImageUrl] = useState(null);
-
-  const handleImageClick = () => {
-    navigator.mediaDevices.getUserMedia({ video: true })
-      .then((stream) => {
-        const video = document.createElement('video');
-        video.srcObject = stream;
-        video.play();
-        const canvas = document.createElement('canvas');
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
-        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
-        setImageUrl(canvas.toDataURL('image/png'));
-        stream.getTracks().forEach((track) => track.stop());
-      })
-      .catch((error) => console.error('Error accessing webcam:', error));
+  const videoRef = useRef(null);
+  const [webcamOn, setWebcamOn] = useState(false);  
+  
+  const handleImageClick = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+      setWebcamOn(true);
+      if (videoRef.current) {
+        videoRef.current.srcObject = stream;
+        videoRef.current.play();
+      }
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   return (
     <>
       <div className="object">
         <h2>Ingredient Identification</h2>
-            <img src = {camera} alt="" width="400px" onClick={handleImageClick} />
-            {imageUrl && <img src={imageUrl} alt="Captured Image" />}
+        {!webcamOn && (
+            <img src = {camera} alt="" width="400px" onClick={handleImageClick} 
+            style={{ display: `${webcamOn ? 'none' : 'block'}` }}/>
+            )}
+            <video ref={videoRef} className = "webcam" />
       </div>
     </>
   )
