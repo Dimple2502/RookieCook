@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from "../images/logo.png";
+import { useParams,useNavigate } from "react-router-dom";
 
 const Card = (props) => {
+  const navigate = useNavigate();
   const { image, title, desc } = props;
 
   return (
@@ -14,6 +15,7 @@ const Card = (props) => {
             <p className="card-text">
               {desc}
             </p>
+            <button className="button" onClick={() => {navigate("/main")}}>View Recipe</button>
           </div>
         </div>
       </div>

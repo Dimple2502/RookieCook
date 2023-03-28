@@ -7,6 +7,7 @@ import Navbar from './components/navbar';
 import Object from './components/object';
 import Weather from './components/weather';
 import Recipe from './components/recipe';
+import Main from './components/main';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/recipe" element={<Recipe/>} />          
           <Route path="/weather" element={<Weather/>} />          
           <Route path="/object" element={<Object/>} />          
+          <Route path="/main" element={<Main/>} />          
         </Routes>
     </>
   );
