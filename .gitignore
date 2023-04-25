@@ -1,23 +1,24 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
 /node_modules
-/.pnp
-.pnp.js
+# dependencies
+/rookiecook_app/node_modules
+/rookiecook_app/.pnp
+/rookiecook_app.pnp.js
+/OD_RookieCook
 
 # testing
-/coverage
+/rookiecook_app/coverage
 
 # production
-/build
+/rookiecook_app/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/rookiecook_app.DS_Store
+/rookiecook_app.env.local
+/rookiecook_app.env.development.local
+/rookiecook_app.env.test.local
+/rookiecook_app.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/rookiecook_appnpm-debug.log*
+/rookiecook_appyarn-debug.log*
+/rookiecook_appyarn-error.log*
