@@ -1,0 +1,349 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 88,
+  "gaps": "no",
+  "preparationMinutes": -1,
+  "cookingMinutes": -1,
+  "aggregateLikes": 1,
+  "healthScore": 17,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 190.77,
+  "extendedIngredients": [
+    {
+      "id": 19334,
+      "aisle": "Baking",
+      "image": "light-brown-sugar.jpg",
+      "consistency": "SOLID",
+      "name": "brown sugar",
+      "nameClean": "golden brown sugar",
+      "original": "1/4 cup brown sugar",
+      "originalName": "brown sugar",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
+        "metric": {
+          "amount": 59.147,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 2010,
+      "aisle": "Spices and Seasonings",
+      "image": "cinnamon.jpg",
+      "consistency": "SOLID",
+      "name": "cinnamon",
+      "nameClean": "cinnamon",
+      "original": "3/4 teaspoon cinnamon",
+      "originalName": "cinnamon",
+      "amount": 0.75,
+      "unit": "teaspoon",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.75, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 0.75,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 20081,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "flour",
+      "nameClean": "wheat flour",
+      "original": "3 cups all-purpose flour",
+      "originalName": "all-purpose flour",
+      "amount": 3.0,
+      "unit": "cups",
+      "meta": ["all-purpose"],
+      "measures": {
+        "us": { "amount": 3.0, "unitShort": "cups", "unitLong": "cups" },
+        "metric": {
+          "amount": 709.764,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1109003,
+      "aisle": "Produce",
+      "image": "apple.jpg",
+      "consistency": "SOLID",
+      "name": "gala apple",
+      "nameClean": "gala apple",
+      "original": "1 gala apple",
+      "originalName": "gala apple",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "", "unitLong": "" },
+        "metric": { "amount": 1.0, "unitShort": "", "unitLong": "" }
+      }
+    },
+    {
+      "id": 1089003,
+      "aisle": "Produce",
+      "image": "grannysmith-apple.png",
+      "consistency": "SOLID",
+      "name": "granny smith apple",
+      "nameClean": "granny smith apple",
+      "original": "1 granny smith apple",
+      "originalName": "granny smith apple",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "", "unitLong": "" },
+        "metric": { "amount": 1.0, "unitShort": "", "unitLong": "" }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "1 tablespoon lemon juice",
+      "originalName": "lemon juice",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" },
+        "metric": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" }
+      }
+    },
+    {
+      "id": 2025,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-nutmeg.jpg",
+      "consistency": "SOLID",
+      "name": "nutmeg",
+      "nameClean": "nutmeg",
+      "original": "1/2 teaspoon nutmeg (4 g)",
+      "originalName": "1/2 teaspoon nutmeg",
+      "amount": 4.0,
+      "unit": "g",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.141, "unitShort": "oz", "unitLong": "ounces" },
+        "metric": { "amount": 4.0, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/4 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.25,
+      "unit": "teaspoon",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.25, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 19335,
+      "aisle": "Baking",
+      "image": "sugar-in-bowl.png",
+      "consistency": "SOLID",
+      "name": "sugar",
+      "nameClean": "sugar",
+      "original": "2 cups sugar",
+      "originalName": "sugar",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 2.0, "unitShort": "cups", "unitLong": "cups" },
+        "metric": {
+          "amount": 473.176,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1145,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "butter-sliced.jpg",
+      "consistency": "SOLID",
+      "name": "butter",
+      "nameClean": "unsalted butter",
+      "original": "3/4 stick (6 tablespoons) unsalted butter, melted",
+      "originalName": "3/4 stick unsalted butter, melted",
+      "amount": 6.0,
+      "unit": "tablespoons",
+      "meta": ["unsalted", "melted"],
+      "measures": {
+        "us": { "amount": 6.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
+        "metric": { "amount": 6.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
+      }
+    },
+    {
+      "id": -1,
+      "aisle": "?",
+      "image": null,
+      "consistency": "SOLID",
+      "name": "tropical foods pb&j mix",
+      "nameClean": null,
+      "original": "¼ cup Tropical Foods PB&J mix, rough chopped",
+      "originalName": "Tropical Foods PB&J mix, rough chopped",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": ["chopped"],
+      "measures": {
+        "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
+        "metric": {
+          "amount": 59.147,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 632583,
+  "title": "Apple Pie with PB&J Streusel",
+  "readyInMinutes": 45,
+  "servings": 2,
+  "sourceUrl": "http://www.foodista.com/recipe/3WLJQBDB/apple-pie-with-pb-j-streusel",
+  "image": "https://spoonacular.com/recipeImages/632583-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "You can never have too many American recipes, so give Apple Pie with PB&J Streusel a try. This recipe serves 2 and costs $1.91 per serving. This dessert has <b>1967 calories</b>, <b>20g of protein</b>, and <b>38g of fat</b> per serving. From preparation to the plate, this recipe takes around <b>45 minutes</b>. This recipe from Foodista has 1 fans. If you have granny smith apple, galan apple, flour, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 59%</b>. This score is pretty good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/apple-pie-streusel-cake-565640\">Apple Pie Streusel Cake</a>, <a href=\"https://spoonacular.com/recipes/apple-pear-streusel-pie-265449\">Apple-Pear Streusel Pie</a>, and <a href=\"https://spoonacular.com/recipes/caramel-apple-streusel-pie-559616\">Caramel Apple Streusel Pie</a>.",
+  "cuisines": ["American"],
+  "dishTypes": ["dessert"],
+  "diets": ["lacto ovo vegetarian"],
+  "occasions": [],
+  "winePairing": {
+    "pairedWines": ["prosecco", "moscato dasti", "late harvest riesling"],
+    "pairingText": "Apple Pie can be paired with Prosecco, Moscato d'Asti, and Late Harvest Riesling. These dessert wines have the right amount of sweetness and light, fruity flavors that won't overpower apple pie. The La Marca Prosecco with a 5 out of 5 star rating seems like a good match. It costs about 20 dollars per bottle.",
+    "productMatches": [
+      {
+        "id": 431976,
+        "title": "La Marca Prosecco",
+        "description": "This sparkling wine is a pale, golden straw in color. Bubbles are full textured and persistent. On the nose the wine brings fresh citrus with hints of honey and white flowers. The flavor is fresh and clean, with ripe citrus, lemon, green apple, and touches of grapefruit, minerality, and some toast. The finish is light, refreshing, and crisp.Always serve La Marca Prosecco chilled between 46-50°F. A versatile Italian Sparkling wine, La Marca Prosecco can be served in sparkling flutes or white wine glasses. A full bottle serves approximately 5-7 glasses. After pouring the first round, seal the opened bottle with a bottle stopper to keep remaining wine fresh and effervescent and keep the wine chilled to 46-50°F. An opened bottle should last about 3-4 hours with the bottle closure.",
+        "price": "$19.99",
+        "imageUrl": "https://spoonacular.com/productImages/431976-312x231.jpg",
+        "averageRating": 1.0,
+        "ratingCount": 7.0,
+        "score": 0.9545454545454546,
+        "link": "https://www.amazon.com/La-Marca-Prosecco-750-mL/dp/B007Q4Y8VK?tag=spoonacular-20"
+      }
+    ]
+  },
+  "instructions": "<ol><li>Preheat oven to 425 degrees.</li><li>Peel and slice apples into quarter sized slices.</li><li>Toss apples in cinnamon, nutmeg, lemon juice, sugar and salt; let sit.</li><li>Mix all ingredients for streusel together.</li><li>Fill a greased small baking dish with apple mixture.</li><li>Top with streusel and bake until streusel is brown.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 425 degrees.Peel and slice apples into quarter sized slices.Toss apples in cinnamon, nutmeg, lemon juice, sugar and salt; let sit.",
+          "ingredients": [
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 2010,
+              "name": "cinnamon",
+              "localizedName": "cinnamon",
+              "image": "cinnamon.jpg"
+            },
+            {
+              "id": 9003,
+              "name": "apple",
+              "localizedName": "apple",
+              "image": "apple.jpg"
+            },
+            {
+              "id": 2025,
+              "name": "nutmeg",
+              "localizedName": "nutmeg",
+              "image": "ground-nutmeg.jpg"
+            },
+            {
+              "id": 19335,
+              "name": "sugar",
+              "localizedName": "sugar",
+              "image": "sugar-in-bowl.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Mix all ingredients for streusel together.Fill a greased small baking dish with apple mixture.Top with streusel and bake until streusel is brown.",
+          "ingredients": [
+            {
+              "id": 9003,
+              "name": "apple",
+              "localizedName": "apple",
+              "image": "apple.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404646,
+              "name": "baking pan",
+              "localizedName": "baking pan",
+              "image": "roasting-pan.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "oven.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularSourceUrl": "https://spoonacular.com/apple-pie-with-pb-j-streusel-632583"
+}

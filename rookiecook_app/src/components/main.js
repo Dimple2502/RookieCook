@@ -14,7 +14,7 @@ const Main = () => {
         <img
           src={logo}
           alt=""
-          width="200px"
+          width="250px"
           height="auto"
           style={{ position: "relative", left: "40%" }}
         />
@@ -24,20 +24,7 @@ const Main = () => {
         <h3>{seasonRecipes[id].Ingredients}</h3>
         <br/>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nam
-          nulla excepturi sequi cum non veritatis, atque nobis, earum blanditiis
-          quod odio voluptate dicta incidunt qui magnam tempore ex temporibus.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-          aliquam minus officiis harum labore quod cumque sed, laborum, esse,
-          animi repudiandae tempora cupiditate provident culpa alias quisquam
-          asperiores magni aspernatur.<br/><br/>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nam
-          nulla excepturi sequi cum non veritatis, atque nobis, earum blanditiis
-          quod odio voluptate dicta incidunt qui magnam tempore ex temporibus.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-          aliquam minus officiis harum labore quod cumque sed, laborum, esse,
-          animi repudiandae tempora cupiditate provident culpa alias quisquam
-          asperiores magni aspernatur.
+        {seasonRecipes[id].Instructions}
         </p>
       </div>
     </>

@@ -8,13 +8,13 @@ from datetime import date
 #fetching date
 #storing date in the variable 'date'
 date_today=str(date.today())
-print(date_today)
-print(type(date_today))
+# print(date_today)
+# print(type(date_today))
 
 #----------------------------------------------------------#
 #splitting date to get month
 split_date_array = date_today.split('-')
-print(split_date_array)
+# print(split_date_array)
 month = int(split_date_array[1])
 
 #----------------------------------------------------------#
@@ -26,12 +26,12 @@ month = int(split_date_array[1])
 #storing current time in variable 'time_now'
 time_now = datetime.now().strftime("%H:%M:%S")
 
-print(f"Current time: {time_now}")
+# print(f"Current time: {time_now}")
 
 #----------------------------------------------------------#
 # storing hour, minute and second in respective variables.
 hour = datetime.now().strftime("%H")
-print(hour)
+# print(hour)
 # minute = datetime.now().strftime("%M")
 # print(minute)
 # second = datetime.now().strftime("%S")
